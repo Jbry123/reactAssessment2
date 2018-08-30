@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background: rgba(0, 203, 200, 0.536);
 }
 
 .TodoContainer {
@@ -12,19 +13,64 @@ body {
 .ContainerLeft {
   width: 49%;
   display: flex;
-  margin: 1%;
-  background: red;
+  flex-direction: column;
+  margin-right: 1%;
+  background: rgba(0, 203, 199, 0.92);
   border-right: double 2px;
+}
+
+.ContainerLeft2 {
+  flex-wrap: wrap;
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  margin-right: 1%;
+  background: rgba(0, 203, 199, 0.92);
   justify-content: center;
 }
 
 .ContainerRight {
   width: 49%;
+  height: 1000px;
   display: flex;
   flex-flow: row;
-  margin: 1%;
-  background: red;
+  margin-left: 1%;
+  background: rgba(0, 203, 199, 0.92);
   border-left: double 2px;
   justify-content: center;
 
+}
+
+.RightText {
+  height: 50px;
+  border-bottom: solid 1px;
+}
+
+.LeftText {
+  height: 50px;
+  border-bottom: solid 1px;
+}
+
+input {
+  margin: 0;
+  margin-left: 3%;
+  border: none;
+  border-radius: 0;
+  width: 62%;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+}
+
+.addBtn {
+  padding: 10px;
+  width: 25%;
+  background: #d9d9d9;
+  color: #555;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
 }
