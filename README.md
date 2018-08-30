@@ -6,11 +6,10 @@ In the following assessments, we will break down the process of building a to-do
 
 A task should be an object with the following properties: `id`, `title`, `description`, and `completed`.
 
-For assessment 1 and 2 you will be responsible for all functionality besides updating. Also you will only need to worry about `id`, `title` and `completed`. For assessment 3 you will be responsible for all functionality and all properties of a task ( `id`, `title`, `description`, `completed` ).
 
-In all three assessments you will not be graded on CSS. We only ask that you make the display of information clear so that it can be graded properly. The screenshots above are only to help with visualization.
+In the assessments you will not be graded on CSS. We only ask that you make the display of information clear so that it can be graded properly. The screenshots above are only to help with visualization.
 
-Assessment 3 will use an API to manage tasks. Here is the documentation for that API:
+Here is the documentation for the API:
 
 <details>
 
@@ -41,10 +40,6 @@ Assessment 3 will use an API to manage tasks. Here is the documentation for that
 
 </details>
 
-<br />
-
-## Assessment 1
-
 ### Summary
 
 In this assessment, you will create the to-do list using `create-react-app` and you will create all the logic needed to create, complete, and delete tasks. All the functionality should be available to the user on the same view.
@@ -64,39 +59,10 @@ In this assessment, you will create the to-do list using `create-react-app` and 
 ### Technical Requirements
 
 * Create a react app from scratch using `create-react-app`.
-* Components.
-* State.
-* Props.
-* <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map?v=example">Map</a>.
-* Classes ( at least 1 )
-* In-line styles ( at least 1 )
-* Conditional Classes
-
-## Assessment 2
-
-### Summary
-
-In this assessment, we will use the repository you made in assessment one and modify the logic. 
-
-### Functionality
-
-* No new functionality is added in this assessment. It should function the same as assessment 1.
-
-### Technical Requirements
-
+* Use functional components over class based components when able
+* Use props instead of State
 * Keep track of tasks using redux.
 * Create, Complete, and Delete tasks using action creators with redux.
-
-## Assessment 3
-
-### Summary
-
-In this assessment, we will use the repository you made in assessment two and modify the logic.
-
-You will find the API documation in the first section of this document.
-
-### Functionality
-
 * A user should be able to click on a task to be taken to a detailed view of that task:
   * A user should be able to modify the title of a task.
   * A user should be able to add/modify the description of a task.
@@ -107,7 +73,7 @@ You will find the API documation in the first section of this document.
   * A user should be able to delete a task:
     * This should navigate the user back to the main list of tasks after deleting a task.
   * A user should be able to complete a task:
-    * This should navigate a user back to the main list of tasks after completeing a task.
+    * This should navigate a user back to the main list of tasks after completing a task.
 * A user should be able to click on a link to be taken back to the main list of tasks from the detailed view.
 
 
