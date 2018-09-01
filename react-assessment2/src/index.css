@@ -10,13 +10,23 @@ body {
   flex-direction: row;
 }
 
-.ContainerLeft {
-  width: 49%;
+.Container1 {
+  width: 50%;
   display: flex;
   flex-direction: column;
   margin-right: 1%;
   background: rgba(0, 203, 199, 0.92);
   border-right: double 2px;
+}
+
+.ContainerLeft {
+  flex-wrap: wrap;
+  width: 50%;
+  display: flex;
+  flex-flow: row;
+  margin-right: 1%;
+  background: rgba(0, 203, 199, 0.92);
+  justify-content: center;
 }
 
 .ContainerLeft2 {
@@ -73,4 +83,8 @@ input {
   cursor: pointer;
   transition: 0.3s;
   border-radius: 0;
+}
+
+#checkBox {
+  text-overflow: clip;
 }
